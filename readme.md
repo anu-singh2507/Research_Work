@@ -48,7 +48,7 @@ conda activate rare_disease_ai
 
 ### 3. Install Dependencies
 ```powershell
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cpu](https://download.pytorch.org/whl/cpu)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install pillow numpy pandas scikit-learn
 ```
 *(Note: If running on Windows with AMD hardware, you can optionally install torch-directml for local GPU acceleration).*
